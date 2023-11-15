@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  max-height: 100px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.logo img {
+  height: 200px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 50px;
+  gap: 2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li {
+  padding-right: 50px;
+}
+
+.menu a:active,
+a:hover {
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.goto-btn {
+  height: 35px;
+  margin-top: 10px;
+  background-color: rgb(72, 133, 183);
+  color: white;
+  width: 125px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid green;
+}
+
+.active {
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
